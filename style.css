@@ -1,0 +1,462 @@
+body
+{
+  font-family: sans-serif;
+  line-height: 1.42857;
+}
+
+.nav-text {
+  font-size: 14px;
+  text-decoration: none;
+  font-family: sans-serif;
+  align-items: center;
+}
+.nav-text:hover
+{
+  color: black !important;
+}
+
+.nav-link
+{
+  align-items: center;
+ 
+}
+
+.nav-link:hover
+{
+  color: black !important ;
+
+}
+
+.menu {
+  padding: 2px;
+  border-left: 1px solid #71717166 !important;
+  border-right: 1px solid #71717166 !important;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.class-gold-image {
+  margin-top: -2vh;
+  vertical-align: center;
+  font-size: 14px;
+}
+
+.search-icon {
+  padding: 1rem;
+  margin-left: 36vw !important;
+  font-size: 20px;
+  margin-top: -1vh;
+  cursor: pointer;
+}
+
+.vertical-line {
+  border-left: 1px solid #71717166 !important;
+  height: 40px;
+}
+
+.btn-classic {
+  font-size: 14px;
+  justify-content: center;
+  font-weight: 900;
+  line-height: 20px;
+  align-items: center;
+  padding: 5px 10px;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0 15px 30px 0 rgb(145 15 86 / 15%);
+  white-space: nowrap;
+  text-decoration: none;
+  background: none;
+}
+
+.btn-sign-up {
+  background: linear-gradient(90deg, #e5007d 0%, #f54da8 100%);
+  color: #feffff;
+}
+
+.btn-sign-up:hover {
+  opacity: 0.7;
+  color: #000;
+}
+
+.btn-sign-in {
+  background-color: rgba(255, 255, 255, 0.7);
+  color: #e5007d;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.btn-sign-in:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+  color: #000;
+  opacity: 0.7;
+}
+
+.dropbtn {
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  opacity: 0.5;
+  background-color: #f1f1f1;
+}
+
+.text-section {
+  font-size: 26px;
+  font-weight: 200;
+}
+
+.custom-select {
+  position: relative;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #000;
+  border-bottom: 4px solid #000;
+}
+
+.seçim1 {
+  font-weight: bolder !important;
+  font-style: italic;
+  font-weight: 24px;
+  font-weight: 300;
+  width: 100%;
+}
+
+.seçim2 {
+  font-size: 12px;
+  font-weight: 300;
+  font-style: italic;
+  margin-top: 0;
+  color: #757575;
+}
+
+.custom-select select {
+  display: none; /*hide original SELECT element:*/
+}
+
+.select-selected {
+  background-color: white;
+  font-size: 15px;
+  font-weight: 400;
+  color: #000;
+}
+
+/*style the arrow inside the select element:*/
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 8px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #000 transparent transparent transparent;
+}
+
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #000 transparent;
+  top: 7px;
+}
+
+/*style the items (options), including the selected item:*/
+.select-items div,
+.select-selected {
+  font-size: 15px;
+  font-weight: 400;
+  color: #000;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  user-select: none;
+}
+
+/*style items (options):*/
+.select-items {
+  position: absolute;
+  font-size: 15px;
+  font-weight: 400;
+  color: #0000;
+  background-color: white;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+/*hide the items when the select box is closed:*/
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover,
+.same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.imax-position {
+  padding: auto;
+  margin-left: -7.5vh;
+}
+.btn-gold-class {
+  width: 6vw !important;
+}
+.gold-class-position {
+  padding: auto !important;
+  margin-left: -2vh;
+  width: 100px;
+  height: 35px !important;
+}
+
+.screen-position {
+  margin-left: -3vh;
+  padding: auto !important;
+  height: 18px;
+}
+
+.premium-cinema-position {
+  padding: auto !important;
+  margin-left: -3vh;
+  height: 20px;
+}
+
+.d-box-position {
+  padding: auto !important;
+  margin-left: -4vh;
+  height: 25px;
+}
+
+.four-dx-position {
+  height: 20px;
+  padding: auto;
+  margin-left: -4vh;
+}
+
+.btn-filter {
+  text-align: center;
+  margin: auto;
+  padding: auto;
+  width: 12vw;
+}
+
+.filter-remove {
+  text-align: center;
+  cursor: pointer;
+  text-decoration: underline;
+  margin-top: 2vh;
+}
+
+.container {
+  position: relative;
+  padding-left: 5%;
+  cursor: pointer;
+  
+}
+
+.image {
+  display: block;
+  height: auto;
+  max-height: 350px;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0;
+  background-color: #ed279377 !important ; 
+  color: #f1f1f1; 
+  width: 100%;
+  height: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+
+
+.footer
+{
+  border-top: 2px solid #dedede;
+  padding-bottom: 100px;
+  padding-top: 50px;
+
+}
+
+.social-media
+{
+  display: flex;
+  flex-direction: row;
+}
+
+.follow-text
+{
+  
+  font-size: 16px;
+  color: #717171;
+}
+.icons
+{
+  font-size: 20px;
+  padding: 10px;
+  border: 1px solid #d0d0d0;
+  border-radius: 4px;
+  color: #717171;
+}
+
+.icons:hover
+{
+  border:1px solid black;
+  color: black;
+}
+
+.footer-list
+{
+  outline: none;
+  background-color: transparent;
+  list-style: none;
+}
+
+
+
+.list-text
+{
+  margin-top: 1vh !important;
+  font-size: 16px !important;
+  text-decoration: none !important;
+  color:#717171 !important ;
+}
+
+.list-text-position
+{
+  margin-top: 0.6vh !important;
+  
+}
+
+.list-text:hover
+{
+  color: black !important;
+}
+
+.footer-text-right
+{
+  margin-top: 1vh !important;
+  color: #717171;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.42857;
+}
+
+.footer-position
+{
+  margin-left: 10vh;
+}
+
+.footer-position2
+{
+  margin-left: 7.2vh;
+}
+
+.no-margin
+{
+  margin-top: 0 !important;
+}
+
+.footer-text-right:hover
+{
+  color: black;
+}
+
+.copyright
+{
+  color: #717171;
+  font-size: 13px;
+  line-height:160% ;
+  text-decoration: none;
+}
+
+.copyright:hover
+{
+  color: #717171;
+}
+
+.copyright-position
+{
+  margin-left: 18vh;
+}
+
+.movie-score
+{
+  position: absolute;
+  top: 40%;
+  left: 42%;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.analyse-button
+{
+  text-align: center;
+  margin-top: 38vh ;
+  width: 100%;
+  height: 40px;
+  font-size: 16px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  background-color: #fff;
+  border: none;
+  box-shadow: none;
+  transition: all 0.2s ease-in-out;
+  color: #000;
+
+}
+
+.analyse-button:hover
+{
+  background-color: #000;
+  color: #fff;
+}

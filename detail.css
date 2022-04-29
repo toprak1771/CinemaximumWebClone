@@ -1,0 +1,408 @@
+.movie-detail-background
+{
+    position:absolute;
+    background-image: url(./assets/images/HO00004977_637783959313352881_uncharted.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+    width: 100%;
+    height: 450px;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    opacity: 0.8;   
+}
+
+.movie-detail-container
+{
+    position: relative;
+    background-image: linear-gradient(to right,#ed279377, #d3ae6933);
+    height: 450px;
+    margin: 0;
+    color: white;
+    z-index: 1;
+    
+    
+}
+.movie-detail-top
+{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-right: 100px;
+    z-index: 1;
+    margin-top: 3px;
+    font-size: 14px;
+    font-family: sans-serif;
+    
+}
+.detail-icon
+{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 14px;
+    margin-left: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.detail-icon:hover
+{
+    background-color: #d428af;
+}
+.line-watch
+{
+    border-left: 1px solid white;
+    margin-left: 18px;
+    cursor: none !important;
+}
+
+.detail-top-text
+{
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+
+.icon-twitter
+{
+    margin-left: 0 !important;
+}
+.share
+{
+    margin-left: 15px;
+    cursor:auto;
+}
+.movie-detail-img
+{
+    height: auto;
+    max-height: 360px;
+}
+
+.movie-name
+{
+    font-size: 36px;
+    font-weight: 200;
+    margin:10px 0 3px 0;
+    line-height: 100%;
+}
+
+.movie-rating
+{
+    
+    position: absolute;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    right: 7.7%;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.movie-technologies
+{
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom:1px solid rgba(255, 255, 255, 0.5);
+    margin-right: 100px;
+    padding: 10px 0;
+    margin-bottom: 35px;
+}
+
+.detail-icon-img
+{
+    height: 40px;    
+}
+.movie-warnings
+{
+    display: flex;
+    flex-direction: row;
+    font-size: 26px;
+    margin-right: 10px;
+    margin-top: -2vh;
+}
+
+.fa-bahai
+{
+    margin-left: 2vh;
+}
+
+.movie-information
+{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.info-text
+{
+    font-size: 14px;
+}
+
+.movie-detail-btn
+{
+    display: inline-block;
+    height: 48px;
+    width: 240px;
+    padding: 11px 24px;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: transparent;
+    border: 1px solid white;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+    box-shadow: none;
+    
+}
+
+.buy-btn
+{
+    background-color: white;
+    color: #000;
+}
+
+.buy-btn:hover
+{
+    transition: all 0.3s ease-out;
+    background-image: linear-gradient(to right, #eb2441 0%, #e70674 100%);
+    color: #fff;
+}
+
+.comment-btn:hover
+{
+    transition: all 0.3s ease-out;
+    background-color: #fff;
+    color: #000;
+}
+
+.movie-review
+{
+    font-size: 16px;
+    text-align: justify;
+    margin-left: 130px;
+    margin-right: 115px;
+}
+
+.movie-select-cinema
+{
+    
+    margin-right: 180px;
+    background: linear-gradient(13deg, #ec2938 0%, #e6017c 99%);
+    transition: all .2s ease-in-out;
+    color: #fff;
+    border-radius: 8px;
+    padding-top: 30px;
+    height: 100px;
+    padding-bottom: 90px !important;
+
+}
+
+.ticket-text
+{
+    
+    margin: 0;
+    font-size: 36px;
+    font-weight: 200;
+    font-family: sans-serif;
+}
+
+.cinema-select-text
+{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.custom-select-new
+{
+    background: transparent !important;
+    color: #fff !important;
+    border-bottom: 4px solid #fff !important;
+}
+
+.border
+{
+    border-top: 4px solid #dedede;
+}
+
+.cinema-date
+{
+    background-color: transparent;
+    color: #9c9c9c;
+    font-size: 22px;
+    font-weight: 200;
+    font-family: sans-serif;
+    margin-right: 180px;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #d0d0d0;
+    border-bottom: 1px solid #d0d0d0;
+    padding: 18px 50px 13px 50px;
+    
+    
+}
+
+.date-detail
+{
+    padding: 1.5rem;
+}
+
+.cinema-day
+{
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.specific-date
+{
+    cursor: pointer;
+}
+
+.cinema-name
+{
+    margin-right: 180px;
+    background: linear-gradient(13deg, #ec2938 0%, #e6017c 99%);
+    transition: all .2s ease-in-out;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.cinema-saloon-text
+{
+    margin-right: 180px;
+    background: linear-gradient(13deg, #ec2938 0%, #e6017c 99%);
+    transition: all .2s ease-in-out;
+    color: #fff;
+    border-radius: 8px;
+    height: 58px;
+    padding-top: 12px;
+    
+}
+
+.cinema-saloon
+{
+    text-align: center !important;
+    margin: 0;
+    font-size: 24px;
+    margin-bottom: 100px !important;
+}
+
+.fa-xmark
+{
+    position: absolute;
+    font-size: 24px;
+    padding-left: 53vh;
+    padding-top: 3px; 
+    cursor: pointer;
+}
+
+.movie-session
+{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.movie-format-text
+{
+    font-size: 22px;
+    
+}
+
+.movie-hour
+{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.movie-session .btn
+{
+    height: 39px;
+    width: 7vw;
+    font-size: 16px;
+    padding: 11px 9px;
+    line-height: 16px;
+    text-align: right !important;
+    border:1px solid #000;
+    text-align: right;
+    font-weight: 700;
+    background:transparent;
+    color: #000;
+    border-radius: 4px;
+}
+.movie-session .btn:hover
+{
+    background:linear-gradient(13deg, #ec2938 0%, #e6017c 99%) !important ;
+}
+
+.movie-comment
+{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10vh;
+    margin-top:12vh;
+}
+  
+.first-comment
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d0d0d0;
+    width: 500px;
+}
+
+input[type=text] {
+
+    
+    color: #7f7f7f;
+    width: 37vw;
+    height: 165px;
+    outline: none;
+    border:none;
+    background-color: #e6e6e6;
+    font-size: 16px;
+    border-radius: 4px;
+    font-family: sans-serif;
+    
+
+  }
+  
+.btn-gönder
+{
+    margin-top: -7vh;
+    margin-left: 63vh !important;
+    width: 100px;
+}
+
+.btn-gönder:hover
+{
+    background:linear-gradient(13deg, #ec2938 0%, #e6017c 99%) ;
+}
+
+.other-movies
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.all-movies{
+
+    
+    text-align: center !important;
+    justify-content: center !important;
+    align-items: center !important;
+    
+}
+
+.all-movies-btn
+{
+    border-radius: 4px;
+    width: 160px;
+
+}
+
+.all-movies-btn:hover
+{
+    background:linear-gradient(13deg, #ec2938 0%, #e6017c 99%) ;
+}

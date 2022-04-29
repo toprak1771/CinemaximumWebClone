@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieDetails</title>
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/fontawesome/css/all.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./detail.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light mx-0 px-0">
+        <div class="container-fluid">
+          <a class="navbar-brand ms-5" href="#">
+            <img
+              src="https://www.cinemaximum.com.tr/Assets/Cgv/assets/images/cinemaximum_logo.svg"
+              alt="CinemaDesign"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item menu ms-2">
+                <a class="nav-link active" aria-current="page" href="#">
+                  <i class="fa-solid fa-bars"></i>
+                  <span class="ps-2 nav-text">Menü </span>
+                </a>
+              </li>
+              <li
+                class="nav-item ms-3 justify-content-center align-items-center text-center"
+              >
+                <a class="nav-link" href="#">Filmler</a>
+              </li>
+              <li
+                class="nav-item  justify-content-center align-items-center text-center"
+              >
+                <a class="nav-link" href="#">Sinemalar</a>
+              </li>
+              <a href="#" class="class-gold-image">
+                <img
+                  src="https://www.cinemaximum.com.tr/Assets/Web/build/assets/images/gold_class_salon_sizin-black-logo.png"
+                  alt="goldClassSalon"
+                  style="max-width: 130px"
+                />
+              </a>
+              <a href="#" class="">
+                <img
+                  src="https://www.cinemaximum.com.tr/Assets/Cgv/assets/images/moviepass/header_cgvmoviepass.png"
+                  alt="Movie Pass"
+                  style="max-width: 40px"
+                />
+              </a>
+              <i class="fa-solid fa-magnifying-glass search-icon"></i>
+              <div class="vertical-line"></div>
+            </ul>
+            <button
+              type="button"
+              class="btn btn-classic btn-sign-up btn-sm btn-primary"
+            >
+              Üye Ol
+            </button>
+            <button
+              type="button"
+              class="btn btn-classic btn-sign-in btn-sm btn-primary"
+            >
+              Giriş
+            </button>
+            <a href="#">
+              <img
+                src="https://www.cinemaximum.com.tr/Assets/Cgv/assets/images/cgv_icon.svg"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
+      </nav>
+
+      <main class="container-fluid mx-0 px-0">
+        <div class="movie-detail-background"></div>
+        <div class="row movie-detail-container p-0">
+          <div class="offset-1 col-3">
+            <img class="movie-detail-img mt-5" src="./assets/images/HO00004977_637783959313352881_uncharted.png">
+
+          </div>
+          <div class="d-flex flex-column col-8">
+            <div class="movie-detail-top mt-4">
+              <i class="detail-icon fa-solid fa-comment"></i>
+              <span class="detail-top-text">Yorumları Oku</span>
+              <i class="detail-icon fa-solid fa-star"></i>
+              <span class="detail-top-text">Puanla</span>
+              <i class="detail-icon fa-solid fa-heart"></i>
+              <span class="detail-top-text">İzlemek İstiyorum</span> <div class="line-watch detail-top-text"></div>
+              <span class="share detail-top-text">Paylaş:</span>
+              <i class="detail-icon fa-brands fa-facebook"></i>
+              <i class="detail-icon icon-twitter fa-brands fa-twitter"></i>
+  
+            </div>
+            <div class="d-flex flex-row">
+              <div class="movie-name"><h2>Uncharted</h2></div>
+              <div class="movie-rating"><span><i class="fa-solid fa-star"></i>8.2</span></div>
+            </div>
+            <div class="movie-technologies d-flex flex-row">
+              <img src="./assets/images/sky_auditorium_logo.png" class="detail-icon-img">
+              <img src="./assets/images/gold_logo-01_new.png" class="detail-icon-img">
+            </div>
+            <div class="movie-warnings">
+              <i class="fa-solid fa-circle-minus"></i>
+              <i class="fa-solid fa-bahai"></i>
+            </div>
+            <div class="movie-information mt-4">
+                <strong>Yönetmen:</strong>
+                <span class="info-text">Ruben Fleischer</span> 
+                <br>
+                <strong>Oyuncular:</strong>
+                <span class="info-text">Mark Wahlberg, Tom Holland, Sophia Ali</span>
+                <br>
+                <strong>Formatlar:</strong>
+                <span class="info-text">2D, Dublajlı, GoldClass, Sky Auditorium, Altyazılı</span>
+              </div>
+              <div class="d-flex flex-row mt-4 mb-2">
+                <button type="button" class="btn btn-light movie-detail-btn buy-btn">Bilet Al</button>
+                <button type="button" class="btn btn-light movie-detail-btn comment-btn ms-3">Fragman</button>
+                <button type="button" class="btn btn-light movie-detail-btn comment-btn ms-3">Yorum Yap</button>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-4 mb-4 mx-0 px-0">
+            <div class="offset-1 col-2">
+              <strong>Vizyon Tarihi:</strong><span class="ms-1">11.02.2022</span>
+              <br>
+              <strong>Süre:</strong> <span class="ms-1">116 Dakika</span>
+              <br>
+              <strong>Tür:</strong> <span class="ms-1">Aksiyon</span>
+            </div>
+            <div class="col-9 mx-0 px-0">
+              <p class="movie-review"><strong>Özet :</strong><span class="ms-2">Uncharted, genç ve korkusuz Nathan Drake ile kıvrak zekalı ortağı Victor Sullivan'ın çıktıkları 
+                ilk hazine avında yaşadığı maceraları konu ediyor. Hazine avcısı Nathan Drake, efsanevi Güney Amerika 
+                altın şehri El Dorado'nun yerini bulabileceğine inanmaktadır. Kıvrak zekalı ortağı Victor Sullivan ile 
+                yola koyulan Nathan'ın planı, hırslı bir rakip tarafından keşfedildiğinde, altın şehir arayışı bir yarışa dönüşür. 
+                Nathan, baş düşmanının açgözlü entrikalarını ve planlarını engellemek ve El Dorado'ya ondan önce ulaşmak için
+                tüm becerilerini kullanmak zorundadır.</span></p>
+              
+            </div>
+          </div>
+          <div class="offset-2 movie-select-cinema mt-5 mb-4">
+            <div class="d-flex flex-row justify-content-center align-items-center">
+              <div class="d-flex flex-column">
+                <h3 class="ticket-text">Bilet Al</h3>
+                <h5 class="cinema-select-text">Sinema Seç</h5>
+              </div>
+              <div
+                    class="custom-select custom-select-new ms-5 justify-content-center align-items-center align-self-center"
+                    style="width: 190px"
+                  >
+                    <select>
+                      <option value="0">Sinema Seç</option>
+                      <option value="1">İstanbul Anadolu</option>
+                      <option value="2">İstanbul Avrupa</option>
+                      <option value="3">İzmir</option>
+                      <option value="4">Ankara</option>
+                      <option value="5">Aydın</option>
+                      <option value="6">Antalya</option>
+                      <option value="7">Aydın</option>
+                      <option value="8">Bursa</option>
+                      <option value="9">Balıkesir</option>
+                      <option value="10">Çanakkale</option>
+                      <option value="11">Eskişehir</option>
+                      <option value="12">Erzincan</option>
+                    </select>
+                  </div>
+            </div>
+          </div>
+          <div class="border mb-4"></div>
+          <div class="offset-2 cinema-date mb-4">
+            <div class="d-flex flex-row justify-content-center align-items-center">
+              <div class="d-flex flex-column date-detail">
+                <span class="specific-date">7 Mart</span>
+                <span class="cinema-day">Pazartesi</span>
+              </div>
+              <div class="d-flex flex-column date-detail">
+                <span class="specific-date">8 Mart</span>
+                <span class="cinema-day">Salı</span>
+              </div>
+              <div class="d-flex flex-column date-detail">
+                <span class="specific-date">9 Mart</span>
+                <span class="cinema-day">Çarşamba</span>
+              </div>
+              <div class="d-flex flex-column date-detail">
+                <span class="specific-date">10 Mart</span>
+                <span class="cinema-day">Perşembe</span>
+              </div>
+            </div>
+          </div>
+          <div class="cinema-saloon-text offset-2 mb-4 text-center">
+            <span class="cinema-saloon">Cinemaximum Cevahir</span>
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+          <div class="offset-2 movie-session mt-5 mb-4">
+            <span class="movie-format-text mb-5">2D ALTYAZILI</span>
+            <div class="movie-hour">
+              <button type="button" class="btn btn-light">10.40</button>
+              <button type="button" class="btn btn-light ms-3">13.25</button>
+              <button type="button" class="btn btn-light ms-3">16.15</button>
+              <button type="button" class="btn btn-light ms-3">19.00</button>
+              <button type="button" class="btn btn-light ms-3">21.50</button>
+            </div>
+          </div>
+          <div class="offset-2 movie-comment">
+            <div class="d-flex flex-column">
+              <span><h4>Yorumlar</h4></span>
+              <span class="first-comment">İlk yorumu sen yaz!</span>
+            </div>
+            <div class="d-flex flex-column comment-box ms-4">
+              <span><h4>Yorum Yaz</h4></span>
+              <div class="">
+                <input type="text"  />
+              </div>
+              <button type="button" class="btn btn-dark btn-gönder">Gönder</button>
+            </div>
+          </div>
+        
+          <div class="other-movies mb-4">
+            <div class="offset-2 pb-4"><h4>Vizyondaki Diğer Filmler</h4></div>
+            <div class="row mx-0 px-0">
+              <div class="col-3">
+                <div class="container">
+                  <div class="card" >
+                    <img src="./assets/images/run_gercek.jpg" class="image" alt="GizliGerçek">
+                    <div class="overlay">
+                      <div class="movie-score">
+                        <i class="fa-solid fa-star"></i><span class="ms-2">7</span>
+                      </div>
+                      <a href="./moviedetail.html" target="_blank"><button class="analyse-button">Bilet Al</button></a> 
+                    </div>
+                  </div>
+                </div>
+                <div class="justify-content-center align-items-center mt-3 text-center"><h6>Gizli Gerçek</h6></div>
+              </div>
+              <div class="col-3">
+                <div class="container">
+                  <div class="card" >
+                    <img src="./assets/images/HO00004345_637787363313831658_malazgirt-1071.png" class="image" alt="Malazgirt1071">
+                    <div class="overlay">
+                      <div class="movie-score">
+                        <i class="fa-solid fa-star"></i><span class="ms-2">7</span>
+                      </div>
+                      <a href="./moviedetail.html" target="_blank"><button class="analyse-button">Bilet Al</button></a> 
+                    </div>
+                  </div>
+                </div>
+                <div class="justify-content-center align-items-center mt-3 text-center"><h6>Malazgirt 1071</h6></div>
+              </div>
+              <div class="col-3">
+                <div class="container">
+                  <div class="card" >
+                    <img src="./assets/images/kasa_büyük_soygun.png" class="image" alt="Kasa:BüyükSoygun">
+                    <div class="overlay">
+                      <div class="movie-score">
+                        <i class="fa-solid fa-star"></i><span class="ms-2">7</span>
+                      </div>
+                      <a href="./moviedetail.html" target="_blank"><button class="analyse-button">Bilet Al</button></a> 
+                    </div>
+                  </div>
+                </div>
+                <div class="justify-content-center align-items-center mt-3 text-center"><h6>Kasa:Büyük Soygun</h6></div>
+              </div>
+              <div class="col-3">
+                <div class="container">
+                  <div class="card" >
+                    <img src="./assets/images/HO00005020_637805395801149120_cyrano.png" class="image" alt="Cyrano">
+                    <div class="overlay">
+                      <div class="movie-score">
+                        <i class="fa-solid fa-star"></i><span class="ms-2">7</span>
+                      </div>
+                      <a href="./moviedetail.html" target="_blank"><button class="analyse-button">Bilet Al</button></a> 
+                    </div>
+                  </div>
+                </div>
+                <div class="justify-content-center align-items-center mt-3 text-center"><h6>Cyrano</h6></div>
+              </div>
+              
+            </div>
+            
+          </div>
+          <div class="all-movies mb-5">
+            <button type="button" class="btn btn-dark all-movies-btn">Tüm Filmler</button>
+          </div>
+          
+        
+
+      </main>
+      <footer class="footer mx-0 px-0">
+        <div class="d-flex flex-column align-items-center justify-content-center">
+          <span class="follow-text ">Bizi Takip Et</span>
+          <div class="social-media mt-3 mb-4">
+            <a href="#"><i class="icons fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="icons ms-2 fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="icons ms-2 fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="icons ms-2 fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="icons ms-2 fa-brands fa-foursquare"></i></a>
+          </div>
+        </div>
+        <div class="container mt-3">
+          <div class="row">
+            <div class="col-2">
+                <ul class="footer-list">
+                  <li class="list-text"><a class="list-text" href="#">Vizyonda</a></li>
+                  <li class="list-text"><a class="list-text" href="#">Yakında</a></li>
+                  <li class="list-text"><a class="list-text" href="#">Sinemalar</a></li>
+                  <li class="list-text"><a class="list-text" href="#">CGV Arthouse</a></li>
+                  <li class="list-text"><a class="list-text" href="#">CGV Cinema Club</a></li>
+                  <li class="list-text"><a class="list-text" href="#">Ayrıcalıklı Salonlar</a></li>
+                  <li class="list-text"><a class="list-text" href="#">Kampanyalar</a></li>
+                  <li class="list-text"><a class="list-text" href="#">Özel Etkinlik Talepleri</a></li> 
+                </ul>
+              
+            </div>
+  
+            <div class="col-3">
+              <ul class="footer-list">
+                <li class="list-text list-text-position"><a class="list-text" href="#">E-Bilet</a></li>
+                <li class="list-text list-text-position"><a class="list-text" href="#">İade İşlemleri</a></li>
+                <li class="list-text list-text-position"><a class="list-text" href="#">MoviePass İade İşlemleri</a></li>
+                <li class="list-text list-text-position"><a class="list-text" href="#">İnsan Kaynakları</a></li>
+                <li class="list-text list-text-position"><a class="list-text" href="#">Sıkça Sorulan Sorular</a></li>
+                <li class="list-text list-text-position"><a class="list-text" href="#">İşlem Rehberi</a></li>
+                <li class="list-text list-text-position"><a class="list-text" href="#">Hakkımızda</a></li>
+                <li class="list-text list-text-position"><a class="list-text" href="#">Yorum ve Öneriler</a></li> 
+              </ul>
+            </div>
+            <div class="col-3">
+              <ul class="footer-list">
+                <li class="list-text"><a class="list-text" href="#">KVK Aydınlatma Bildirimi</a></li>
+                <li class="list-text"><a class="list-text" href="#">Kamera Sistemleri Bildirimi</a></li>
+                <li class="list-text"><a class="list-text" href="#">KVKK Başvuru Formu</a></li>
+                <li class="list-text"><a class="list-text" href="#">KVK Politikası</a></li>
+                <li class="list-text"><a class="list-text" href="#">İletişim</a></li>
+            </div>
+            <div class="col-4">
+              <div class="d-flex flex-column">
+                <div class="d-flex flex-row footer-position">
+                <a class="footer-text-right" href="#">Gizlilik</a>
+                <a class=" ms-3 footer-text-right " href="#">Kullanım Koşulları</a>
+                </div>
+                <a class="footer-text-right no-margin mt-2 footer-position2" href="#">Mesafeli Bilet Satış Sözleşmesi</a>
+                <div class="d-flex flex-row mt-4">
+                  <span class="copyright">Reklam vermek için:</span>
+                  <a class="copyright ms-1" href="#">www.marsmedia.com</a>
+                </div>
+                <div class="copyright mt-1 copyright-position">© Copyright 2022</div>
+              </div>
+              
+            </div>
+    
+    
+          </div>
+        </div>
+        
+        
+        
+      </footer>
+      <script>
+        var x, i, j, l, ll, selElmnt, a, b, c;
+        /*look for any elements with the class "custom-select":*/
+        x = document.getElementsByClassName("custom-select");
+        l = x.length;
+        for (i = 0; i < l; i++) {
+          selElmnt = x[i].getElementsByTagName("select")[0];
+          ll = selElmnt.length;
+          /*for each element, create a new DIV that will act as the selected item:*/
+          a = document.createElement("DIV");
+          a.setAttribute("class", "select-selected");
+          a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
+          x[i].appendChild(a);
+          /*for each element, create a new DIV that will contain the option list:*/
+          b = document.createElement("DIV");
+          b.setAttribute("class", "select-items select-hide");
+          for (j = 1; j < ll; j++) {
+            /*for each option in the original select element,
+            create a new DIV that will act as an option item:*/
+            c = document.createElement("DIV");
+            c.innerHTML = selElmnt.options[j].innerHTML;
+            c.addEventListener("click", function (e) {
+              /*when an item is clicked, update the original select box,
+                and the selected item:*/
+              var y, i, k, s, h, sl, yl;
+              s = this.parentNode.parentNode.getElementsByTagName("select")[0];
+              sl = s.length;
+              h = this.parentNode.previousSibling;
+              for (i = 0; i < sl; i++) {
+                if (s.options[i].innerHTML == this.innerHTML) {
+                  s.selectedIndex = i;
+                  h.innerHTML = this.innerHTML;
+                  y = this.parentNode.getElementsByClassName("same-as-selected");
+                  yl = y.length;
+                  for (k = 0; k < yl; k++) {
+                    y[k].removeAttribute("class");
+                  }
+                  this.setAttribute("class", "same-as-selected");
+                  break;
+                }
+              }
+              h.click();
+            });
+            b.appendChild(c);
+          }
+          x[i].appendChild(b);
+          a.addEventListener("click", function (e) {
+            /*when the select box is clicked, close any other select boxes,
+              and open/close the current select box:*/
+            e.stopPropagation();
+            closeAllSelect(this);
+            this.nextSibling.classList.toggle("select-hide");
+            this.classList.toggle("select-arrow-active");
+          });
+        }
+        function closeAllSelect(elmnt) {
+          /*a function that will close all select boxes in the document,
+          except the current select box:*/
+          var x,
+            y,
+            i,
+            xl,
+            yl,
+            arrNo = [];
+          x = document.getElementsByClassName("select-items");
+          y = document.getElementsByClassName("select-selected");
+          xl = x.length;
+          yl = y.length;
+          for (i = 0; i < yl; i++) {
+            if (elmnt == y[i]) {
+              arrNo.push(i);
+            } else {
+              y[i].classList.remove("select-arrow-active");
+            }
+          }
+          for (i = 0; i < xl; i++) {
+            if (arrNo.indexOf(i)) {
+              x[i].classList.add("select-hide");
+            }
+          }
+        }
+        /*if the user clicks anywhere outside the select box,
+        then close all select boxes:*/
+        document.addEventListener("click", closeAllSelect);
+      </script>
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"
+  ></script>
+</body>
+</html>
